@@ -4,91 +4,121 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <title>Portifólio</title>
   </head>
   <body>
-    <nav>
-      <a href="index.html">Início</a>
-      <a href="#whoami">Quem sou eu?</a>
-      <a href="#hard">Hard Skills</a>
-      <a href="#soft">Soft Skills</a>
-      <a href="#blogs">Blogs</a>
-    </nav>
-    <h1 id="topo">Otto Micheletti</h1>
-    <img
-      src="/avatarsq.jpg"
-      alt="Otto Micheletti em preto e branco"
-      width="300px"
-    />
-    <h2 id="whoami">Quem sou eu?</h2>
-    <p>
-      Me chamo Otto, tenho 29 anos e sou de Ribeirão Preto - SP mas, moro em
-      <em>Joinville - SC</em> há 23 anos. Sou casado com a
-      <a target="_blank" href="https://github.com/brunagattei">Bruna</a> e temos
-      dois gatos, o Boris e a Kali. Formado em
-      <strong>Administração de Empresas</strong> pela Católica de Santa
-      Catarina, pós-graduando em Desenvolvimento Web Full-Stack pela PUC Minas e
-      estudante em Desenvolvimento Web na
-      <em>Trybe</em>
-    </p>
-    <h2 id="hard">Hard Skills</h2>
-    <ul>
-      <li>Distribuições Linux com base em Arch, Debian, RHEL e OpenSUSE</li>
-      <li>Terminal - BASH e ZSH</li>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>JavaScript</li>
-      <li><strong>Inglês Avançado</strong></li>
-      <li>Redes LAN</li>
-    </ul>
+    <div id="headerDiv">
+      <ul id="headerMenu">
+        <li>
+          <a href="index.html">Início</a>
+        </li>
+        <li>
+          <a href="#whoami">Quem sou eu?</a>
+        </li>
+        <li>
+          <a href="#painel">Habilidades</a>
+        </li>
+        <li>
+          <a href="#blogsTitulo">Blogs</a>
+        </li>
+      </ul>
+    </div>
+    <main>
+      <div id="perfil">
+        <h1 id="nome">Otto Micheletti</h1>
+        <img
+          id="avatar"
+          src="/avatarsq.jpg"
+          alt="Otto Micheletti em preto e branco"
+          width="300px"
+        />
+        <ul id="social">
+          <li><a href="http://github.com/ottomicheletti">GitHub</a></li>
+          <li><a href="http://linkedin.com/in/ottomic">LinkedIn</a></li>
+          <li><a href="mailto:michelettiotto@gmail.com">Email</a></li>
+        </ul>
+        <h2 id="whoami">Quem sou eu?</h2>
+        <p>
+          Me chamo Otto, tenho 29 anos e sou de Ribeirão Preto - SP mas, moro em
+          <em>Joinville - SC</em> há 23 anos. Sou casado com a
+          <a target="_blank" href="https://github.com/brunagattei">Bruna</a> e
+          temos dois gatos, o Boris e a Kali. Formado em
+          <strong>Administração de Empresas</strong> pela Católica de Santa
+          Catarina, pós-graduando em Desenvolvimento Web Full-Stack pela PUC
+          Minas e estudante em Desenvolvimento Web na
+          <em>Trybe</em>
+        </p>
+      </div>
+      <div class="painel">
+        <ul class="skills">
+          <h2>Hard Skills</h2>
+          <li>Distribuições Linux com base em Arch, Debian, RHEL e OpenSUSE</li>
+          <li>Terminal - BASH e ZSH</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li><strong>Inglês Avançado</strong></li>
+          <li>Redes LAN</li>
+        </ul>
 
-    <h2 id="soft">Soft Skills</h2>
-    <ul>
-      <li>Determinado</li>
-      <li>Disposto</li>
-      <li>Engajado</li>
-      <li>Focado</li>
-      <li><strong>Paciente</strong></li>
-      <li>Flexível</li>
-      <li>Resiliente</li>
-    </ul>
+        <ul class="skills">
+          <h2>Soft Skills</h2>
+          <li>Determinado</li>
+          <li>Disposto</li>
+          <li>Engajado</li>
+          <li>Focado</li>
+          <li><strong>Paciente</strong></li>
+          <li>Flexível</li>
+          <li>Resiliente</li>
+        </ul>
+      </div>
 
-    <a href="#topo">Ir para o topo</a>
-
-    <h2 id="blogs">Blogs que acompanho</h2>
-    <ul>
-      <li>
-        <a target="_blank" href="https://www.edivaldobrito.com.br"
-          >Blog do Edivaldo</a
-        >
-        - Informações, notícias, tutoriais e dicas sobre diversas distros Linux
-      </li>
-      <li>
-        <a target="_blank" href="https://codigofonte.com.br">Código Fonte</a> -
-        Tudo sobre tecnologia e programação
-      </li>
-      <li>
-        <a target="_blank" href="https://diolinux.com.br">Diolinux</a> - Maior
-        referência nacional em Linux e mundo Open Source
-      </li>
-      <li>
-        <a target="_blank" href="https://terminalroot.com.br">Terminal Root</a>
-        - Dicas e novidades sobre Linux, Programação e Desenvolvimento Web.
-      </li>
-      <li>
-        <a target="_blank" href="https://vivaolinux.com.br">Viva o Linux</a> -
-        Maior comunidade GNU/Linux da América Latina
-      </li>
-      <li>
-        <a target="_blank" href="https://itsfoss.com/">It's FOSS</a> - Maior
-        referência internacional sobre o mundo FOSS
-        <i>(Free and Open Source Software)</i>
-      </li>
-      <li>
-        <a target="_blank" href="https://pimylifeup.com">PiMyLifeUp</a> - Fonte
-        internacional com tutoriais e dicas sobre Raspberry Pi, Linux, Python e
-        Eletrônica
-      </li>
-    </ul>
+      <div class="blogsDiv">
+        <h2 id="blogsTitulo">Blogs que acompanho</h2>
+        <ul id="blogsLista">
+          <li>
+            <a target="_blank" href="https://www.edivaldobrito.com.br"
+              >Blog do Edivaldo</a
+            >
+            - Informações, notícias, tutoriais e dicas sobre diversas distros
+            Linux
+          </li>
+          <li>
+            <a target="_blank" href="https://codigofonte.com.br"
+              >Código Fonte</a
+            >
+            - Tudo sobre tecnologia e programação
+          </li>
+          <li>
+            <a target="_blank" href="https://diolinux.com.br">Diolinux</a> -
+            Maior referência nacional em Linux e mundo Open Source
+          </li>
+          <li>
+            <a target="_blank" href="https://terminalroot.com.br"
+              >Terminal Root</a
+            >
+            - Dicas e novidades sobre Linux, Programação e Desenvolvimento Web.
+          </li>
+          <li>
+            <a target="_blank" href="https://vivaolinux.com.br">Viva o Linux</a>
+            - Maior comunidade GNU/Linux da América Latina
+          </li>
+          <li>
+            <a target="_blank" href="https://itsfoss.com/">It's FOSS</a> - Maior
+            referência internacional sobre o mundo FOSS
+            <i>(Free and Open Source Software)</i>
+          </li>
+          <li>
+            <a target="_blank" href="https://pimylifeup.com">PiMyLifeUp</a> -
+            Fonte internacional com tutoriais e dicas sobre Raspberry Pi, Linux,
+            Python e Eletrônica
+          </li>
+        </ul>
+      </div>
+    </main>
+    <a href="index.html"
+      ><img id="vaiTopo" src="/arrow-up-square-fill.svg" alt=""
+    /></a>
   </body>
 </html>
