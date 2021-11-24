@@ -5,6 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Comforter+Brush&family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+
     <title>Portifólio</title>
   </head>
   <body>
@@ -24,7 +31,7 @@
         </li>
       </ul>
     </div>
-    <main>
+    <div id="box">
       <div id="perfil">
         <h1 id="nome">Otto Micheletti</h1>
         <img
@@ -34,9 +41,21 @@
           width="300px"
         />
         <ul id="social">
-          <li><a href="http://github.com/ottomicheletti">GitHub</a></li>
-          <li><a href="http://linkedin.com/in/ottomic">LinkedIn</a></li>
-          <li><a href="mailto:michelettiotto@gmail.com">Email</a></li>
+          <li>
+            <a href="http://github.com/ottomicheletti"
+              ><img src="/github.png" alt="GitHub"
+            /></a>
+          </li>
+          <li>
+            <a href="http://linkedin.com/in/ottomic"
+              ><img src="/linkedin.png" alt="LinkedIn"
+            /></a>
+          </li>
+          <li>
+            <a href="mailto:michelettiotto@gmail.com"
+              ><img src="/o-email.png" alt="Email"
+            /></a>
+          </li>
         </ul>
         <h2 id="whoami">Quem sou eu?</h2>
         <p>
@@ -53,7 +72,7 @@
       <div class="painel">
         <ul class="skills">
           <h2>Hard Skills</h2>
-          <li>Distribuições Linux com base em Arch, Debian, RHEL e OpenSUSE</li>
+          <li>ArchLinux, Debian, OpenSUSE e RHEL</li>
           <li>Terminal - BASH e ZSH</li>
           <li>HTML</li>
           <li>CSS</li>
@@ -116,9 +135,10 @@
           </li>
         </ul>
       </div>
-    </main>
-    <a href="index.html"
-      ><img id="vaiTopo" src="/arrow-up-square-fill.svg" alt=""
-    /></a>
+
+      <!-- <a href="index.html"
+        ><img id="vaiTopo" src="/arrow-up-square-fill.svg" alt=""
+      /></a> -->
+    </div>
   </body>
 </html>
